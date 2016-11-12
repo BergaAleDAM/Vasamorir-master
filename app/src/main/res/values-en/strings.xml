@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vasamorir</string>
+    <array name="trabajos">
+        <item>Public servant</item>
+        <item>IT developer</item>
+        <!-- No se si realmente estan bien puestos los nombres de los empleos, pero tampoco me he
+        comido mucho la cabeza -->
+    </array>
+    <string name="from_date">Here</string>
+    <string name="to_date">Thats it</string>
+    <string name="pon_tu_nombre">Pot your name</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="drogas">Drugs</string>
+    <string name="fecha_de_nacimiento">Your Birthday</string>
+    <string name="resultado">Result</string>
+    <string name="trabajo">Work</string>
+    <string name="vicios">Vice</string>
+    <string name="ponle_tu_nombre">Put ur name</string>
+</resources>

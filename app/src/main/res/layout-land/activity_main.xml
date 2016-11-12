@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp" />
+
+    <Spinner
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sptrabajo"
+        android:entries="@array/trabajos"
+        android:layout_alignBottom="@+id/resultado"
+        android:layout_toStartOf="@+id/resultado"
+        android:layout_marginEnd="13dp" />
+
+    <TextView
+        android:text="@string/ponle_tu_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvnombre"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp" />
+
+    <TextView
+        android:text="@string/trabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtrabajo"
+        android:layout_alignBottom="@+id/sptrabajo"
+        android:layout_alignStart="@+id/tvnombre" />
+
+    <TextView
+        android:text="@string/fecha_de_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfecha"
+        android:layout_below="@+id/tvnombre"
+        android:layout_alignStart="@+id/tvnombre"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:text="@string/vicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvvicios"
+        android:layout_marginBottom="65dp"
+        android:layout_above="@+id/tvtrabajo"
+        android:layout_alignStart="@+id/tvtrabajo" />
+
+    <CheckBox
+        android:text="@string/alcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckalcohol"
+        android:layout_alignBaseline="@+id/tvvicios"
+        android:layout_alignBottom="@+id/tvvicios"
+        android:layout_toEndOf="@+id/tvfecha" />
+
+    <CheckBox
+        android:text="@string/drogas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="43dp"
+        android:id="@+id/ckdrugs"
+        android:layout_alignBaseline="@+id/ckalcohol"
+        android:layout_alignBottom="@+id/ckalcohol"
+        android:layout_toEndOf="@+id/ckalcohol" />
+
+    <EditText
+        android:id="@+id/et_fecha"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_weight=".5"
+        android:layout_marginStart="64dp"
+        android:layout_alignBaseline="@+id/tvfecha"
+        android:layout_alignBottom="@+id/tvfecha"
+        android:layout_toEndOf="@+id/tvfecha" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etnombre"
+        android:layout_above="@+id/tvfecha"
+        android:layout_toRightOf="@+id/tvfecha"
+        android:layout_toEndOf="@+id/tvfecha"/>
+
+
+</RelativeLayout>

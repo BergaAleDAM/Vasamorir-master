@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Vasamorir</string>
+    <array name="trabajos">
+        <item>Funcionari</item>
+        <item>Informàtic</item>
+    </array>
+    <string name="from_date">Aqui</string>
+    <string name="to_date">Ya està</string>
+    <string name="pon_tu_nombre">Posa el teu nom</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="drogas">Drogues</string>
+    <string name="fecha_de_nacimiento">Data de naixament</string>
+    <string name="resultado">Resultat</string>
+    <string name="trabajo">Treball</string>
+    <string name="vicios">Vice:3</string>
+    <string name="ponle_tu_nombre">Posa el teu nom</string>
+</resources>
